@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="infowindow_tipview_width">8dp</dimen>
+    <dimen name="infowindow_margin">8dp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="ninety_two_dp">92dp</dimen>
+    <dimen name="my_locationview_outer_circle">18dp</dimen>
+
+    <!--Minimum scale velocity required to start animation-->
+    <dimen name="minimum_scale_velocity">150dp</dimen>
+
+    <!--Minimum scale span delta required to execute scale gesture when rotating-->
+    <dimen name="minimum_scale_span_when_rotating">100dp</dimen>
+
+    <!--Minimum angular velocity required to start rotation animation-->
+    <dimen name="minimum_angular_velocity">0.025dp</dimen>
+
+    <dimen name="locationComponentTrackingInitialMoveThreshold">25dp</dimen>
+    <dimen name="locationComponentTrackingMultiFingerMoveThreshold">400dp</dimen>
+    <dimen name="card_element_margin">8</dimen>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_access_hotspot"
+            android:icon="@drawable/baseline_network_wifi_32"
+            android:title="@string/hotspot_access" />
+
+        <item
+            android:id="@+id/nav_scan_device"
+            android:icon="@drawable/baseline_manage_scan"
+            android:title="@string/scan_devices" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/connected_device">
+            <menu>
+                <item
+                    android:id="@+id/connected_device"
+                    android:title=""
+                    android:visible="false" />
+
+                <item
+                    android:id="@+id/nav_dis_device"
+                    android:icon="@drawable/baseline_disabled_by_default"
+                    android:title="@string/disconnect_current_device" />
+            </menu>
+        </item>
+    </group>
+</menu>

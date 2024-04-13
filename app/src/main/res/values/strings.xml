@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AR Navigation</string>
+    <string name="mapbox_access_token" translatable="false" tools:ignore="UnusedResources">pk.eyJ1IjoibWFuaGthbXVpMDUwMiIsImEiOiJjbHNid2R6YWQwZTloMnZsNTBxeG16Y2VnIn0.tnwgb_-j7RK3xU5KHAELeQ</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="focus_location">focus location</string>
+    <string name="glasses_connected">Glasses connected</string>
+    <string name="glasses_not_connected">Not connected</string>
+    <string name="show_bluetooth_status">Show Bluetooth Status</string>
+    <string name="km_h">km/h</string>
+    <string name="header_text1">Navigate Reality</string>
+    <string name="header_text">CONNECT TO GLASSES</string>
+
+    <string name="ble_not_supported">BLE not supported on this device</string>
+    <string name="bt_unavailable">Bluetooth unavailable</string>
+    <string name="bt_disabled">Bluetooth disabled, turn on and restart</string>
+    <!-- Scan -->
+    <string name="action_scan">SCAN</string>
+    <string name="action_stop">STOP</string>
+    <!-- Device -->
+    <string name="read_manufacturer_name">Read Manufacturer Name</string>
+    <string name="read_serial_number">Read Serial Number</string>
+    <string name="write_alert_level">Write Alert Level</string>
+    <string name="scan_devices">Scan devices</string>
+    <string name="devices_nearby">Devices Nearby</string>
+    <string name="disconnect_current_device">Disconnect current device</string>
+    <string name="connected_device">Connected device</string>
+    <string name="hotspot_access">Hotspot Access (Full map)</string>
+    <string name="hotspot_name">Hotspot name</string>
+    <string name="hotspot_password">Hotspot password</string>
+    <string name="hotspot_access_discription">Connect to BLE first</string>
+    <string name="free_drive_mode">free drive mode</string>
+
+</resources>
